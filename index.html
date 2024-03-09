@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="background-image">
+            <div class="navbar">
+                <h2 class="nav-comp"><a href="index.html">Home</a></h2>
+                <h2 class="nav-comp"><a href="#about">About</a></h2>
+                <h2 class="nav-comp"><a href="#project">Project</a></h2>
+                <h2 class="nav-comp"><a href="#connect-section">Connect</a></h2>
+            </div>
+            <br>
+            <hr>
+            <br><br><br><br><br>
+            <div class="front-page">
+                <p class="frontpage-text"><span class="first-name hidden">Kshitij</span><span class="second-name hidden"> Katiyar</span></p>
+            </div>
+            <br>
+            <button class="contact-button hidden"><a href="#connect-section">Contact</a></button>
+        </div>
+    </header>
+    
+    <main>
+        <hr>
+        <div class="counter">
+            <div class="project-count"></div>
+        </div>
+        <p class="title hidden" id="about"><u>About Us</u></p>
+        <br><br>
+        <p class="text hidden">
+            My name is Kshitij Katiyar, and I am an 8th-grade student with a deep passion for web development. Webpage creation is not just a hobby for me; it's a skill I've honed over the years. I began my journey in web development when I was just 12 years old, and now, at 13, I find great joy in crafting webpages. I've learned HTML and CSS through online resources like YouTube, and I enjoy experimenting with these languages to design unique and functional websites. In addition to web development, I've also dabbled in programming and have acquired knowledge in Python and the basics of Java, thanks to my dedication to learning from online sources. I'm excited to continue my journey in the world of technology and explore new horizons in web development and programming.
+        </p>
+        <br>
+        <p class="text hidden">
+            Several months ago, I delved into PC game development using Unity, and I'm thrilled to share my creations with you. My introduction to Unity and game development came through YouTube tutorials, a testament to my self-driven learning. In the 'Projects' section, you'll find links to the games I've crafted. I invite you to try them out and provide your valuable feedback on these projects. Your insights and input would be greatly appreciated!
+        </p>
+        <br>
+        <p class="text hidden">
+            I've also delved into 3D modeling using Blender, where I've acquired the skills to create basic 3D shapes like cars, buildings, houses, and more. This hands-on experience with 3D modeling has been an exciting addition to my skill set, allowing me to explore the world of 3D design and expand my creative horizons.
+        </p>
+        <br>
+        <hr>
+        <p class="heading" id="project">Projects</p>
+        <br><br><br>
+        <div class="candy-game-section">
+            <div class="candy-game-image hidden">
+                <div class="candy-game-text hidden">
+                    <p class="project-text hidden">Candy Game</p>
+                    <br>
+                    <p class="project-text-sub hidden">This is a candy game in which you are a ball and you have to make the candy fall on the rectangular platform</p>
+                    <br>
+                    <button class="download-button"><a href="https://drive.google.com/file/d/12e4ivI7fIGWJ1JaZ71gILwC6r8aYqm-w/view?usp=drive_link">Download Now</a></button>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="candy-game-section">
+            <div class="candy-game-image-2 hidden">
+                <div class="candy-game-text hidden">
+                    <p class="project-text hidden">Forza 6</p>
+                    <br>
+                    <p class="project-text-sub hidden">I have tried to create an open world city that you can explore, you can also do drag race by clicking on the drag race button</p>
+                    <br>
+                    <button class="download-button"><a href="https://drive.google.com/drive/folders/1DizcSbeVkNe4pvrylGdM8GF-Ir71kzt8?usp=sharing">Download Now</a></button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div id="connect-section">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Contact Us</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="35ae78ac-1145-4057-99c7-8b35aed5d6b6" class="hidden">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs hidden" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs hidden" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs hidden" required></textarea>
+                <button type="submit" class="hidden">Submit <img src="assets/arrow_icon.png" alt=""></button>
+            </form>
+            <div class="contact-right hidden">
+                <img src="assets/right_img.png" alt="">
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
